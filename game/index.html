@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Midnight Vault — a heist game</title>
+<style>
+  html, body { margin: 0; padding: 0; background: #07090f; min-height: 100%; }
+  body { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; padding: 18px 0; box-sizing: border-box; font-family: monospace; }
+  canvas { background: #0d1017; border: 2px solid #2b3448; border-radius: 6px; max-width: 96vw; height: auto; box-shadow: 0 12px 44px rgba(0,0,0,.6); }
+  p { color: #8fa1bd; font-size: 13px; margin: 0; text-align: center; padding: 0 12px; }
+  b { color: #dfe8ff; }
+</style>
+</head>
+<body>
+<canvas id="game" width="960" height="704"></canvas>
+<p><b>Midnight Vault</b> — WASD/arrows move · Shift sneak · hold <b>E</b> hack / open vault · <b>Q</b> or click: noisemaker · <b>R</b> retry · Fill the bag past quota, then reach the VAN.</p>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
