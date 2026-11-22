@@ -107,9 +107,9 @@ export function buildWorld(level, levelIndex) {
     alert: 0, targetX: 0, targetY: 0, waitT: 0, id: i,
   }));
 
-  world.cameras = level.cameras.map(c => ({
+  world.cameras = level.cameras.map((c, i) => ({
     x: c.tx * TILE + TILE / 2, y: c.ty * TILE + TILE / 2,
-    base: c.base, sweep: c.sweep, range: c.range, dir: c.base, phase: Math.random() * 6,
+    base: c.base, sweep: c.sweep, range: c.range, dir: c.base, phase: i * 1.93,
   }));
 
   world.lasers = level.lasers.map(l => ({ ...l, tripped: 0 }));
