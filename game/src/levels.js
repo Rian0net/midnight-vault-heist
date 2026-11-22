@@ -46,8 +46,8 @@ export const LEVELS = [
       { path: [[3, 11], [7, 11], [7, 14], [3, 14]], speed: 0.95 },
     ],
     cameras: [
-      { tx: 15, ty: 1, base: Math.PI / 2, sweep: 0.9, range: 170 },
-      { tx: 22, ty: 10, base: Math.PI, sweep: 0.8, range: 160 },
+      { tx: 14, ty: 1, base: Math.PI / 2, sweep: 0.9, range: 170 },
+      { tx: 20, ty: 10, base: Math.PI, sweep: 0.8, range: 160 },
     ],
     lasers: [
       { x1: 11, y1: 7, x2: 11, y2: 9, period: 3.2, on: 2.0 },
@@ -133,7 +133,7 @@ export const LEVELS = [
     ],
     cameras: [
       { tx: 6, ty: 5, base: 0.6, sweep: 0.9, range: 180 },
-      { tx: 23, ty: 6, base: Math.PI, sweep: 0.7, range: 170 },
+      { tx: 22, ty: 6, base: Math.PI, sweep: 0.7, range: 170 },
       { tx: 12, ty: 9, base: Math.PI / 2, sweep: 1.0, range: 165 },
       { tx: 1, ty: 9, base: 0, sweep: 0.8, range: 160 },
     ],
